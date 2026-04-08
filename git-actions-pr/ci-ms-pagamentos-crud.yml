@@ -25,4 +25,4 @@ jobs:
           cache: maven
 
       - name: Build ms-pagamentos      
-        run: mvn -f ms-pedidos/pom.xml -B test
+        run: mvn -f ms-pagamentos/pom.xml -B test
